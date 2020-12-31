@@ -1,7 +1,26 @@
 ---
-title: webpack 前置概念
-type: webpack
+title: Webpack 前置概念
+date: 2019-03-03
+updated: 2019-06-03
+tags: Webpack
+categories: webpack
+keywords: Webpack
+description: Webpack 前置概念
+top_img:
 comments: false
+cover:
+toc:
+toc_number:
+copyright:
+copyright_author:
+copyright_author_href:
+copyright_url:
+copyright_info:
+mathjax:
+katex:
+aplayer:
+highlight_shrink:
+aside:
 ---
 ## 1.空间
 
@@ -76,6 +95,7 @@ var SunsanModule = (function () {
 
 ## 3.模块化演化史
 
+
 ```JS
 1.AMD阶段 COMMONJS规范 ES6 MODUle
 ```
@@ -115,7 +135,6 @@ export function sum (a,b){
 4.然后我们在我们的index.html里引入
 ```
 
-![](E:\笔记\webpack1.png)
 
 ## 5.打包逻辑
 
