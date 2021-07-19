@@ -8,16 +8,18 @@
 
 menu:
   首页: / || fas fa-home
-  时间轴: /archives/ || fas fa-archive
+  # 时间轴: /archives/ || fas fa-archive
+  叨逼叨: /artitalk/ || fas fa-archive
   标签: /tags/ || fas fa-tags
+  # 标签: /tags/ || fas fa-tags 说说预留页面
   分类: /categories/ || fas fa-folder-open
-  清单||fa fa-heartbeat:
-    - 音乐 || /music/ || fas fa-music
-    - 照片 || /Gallery/ || fas fa-images
-    - 电影 || /movies/ || fas fa-video
+  # 清单||fa fa-heartbeat:
+  #   - 音乐 || /music/ || fas fa-music
+  #   - 照片 || /Gallery/ || fas fa-images
+  #   - 电影 || /movies/ || fas fa-video
   友链: /link/ || fas fa-link
   评论: /comments/ || fas fa-link
-  关于: /about/ || fas fa-heart
+  个人简介: /about/ || fas fa-heart
 
 
 # Hide the child menu items in mobile sidebar
@@ -41,13 +43,13 @@ copy:
   copyright:
     enable: true
     limit_count: 50
-
+# 头像区域的图标
 # social settings (社交圖標設置)
 # formal:
 #   icon: link || the description
 social:
   fas fa-envelope: wangzhengvslike@163.com || Email
-  iconfont icon-weixin-copy: /img/Wechat.jpg
+  fa fa-weixin: /img/Wechat.jpg
 
 # search (搜索)
 # --------------------------------------
@@ -88,7 +90,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: /img/my.jpeg
+  img: /img/my.jpg
   effect: false
 
 # The banner image of home page
@@ -302,8 +304,8 @@ gitalk:
 # https://valine.js.org
 # 评论配置
 valine:
-  appId: D3GKoxM3iy5Clu1HN3jpUJLq-MdYXbMMI # leancloud application app id
-  appKey: zywUB2kmVspPjaokIvwBy55t  # leancloud application app key
+  appId: b3Mf59K4STSyFmKmH8INrXg8-gzGzoHsz # leancloud application app id
+  appKey: S2XUSDBEMs9gMkGj2aXHXBEf  # leancloud application app key
   pageSize: 10 # comment list page size
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
   lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
@@ -771,9 +773,10 @@ note:
 # Artitalk
 # see https://artitalk.js.org/
 artitalk:
-  appId: Wb099B9rkDd7jaHObkuQaTAz-MdYXbMMI
-  appKey: 8gMfjFuNrCjIjaosI9cMvYvN
+  appId: b3Mf59K4STSyFmKmH8INrXg8-gzGzoHsz
+  appKey: S2XUSDBEMs9gMkGj2aXHXBEf
   option:
+
 
 # Pjax [Beta]
 # It may contain bugs and unstable, give feedback when you find the bugs.
