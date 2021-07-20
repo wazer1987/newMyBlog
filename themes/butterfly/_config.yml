@@ -9,7 +9,7 @@
 menu:
   首页: / || fas fa-home
   # 时间轴: /archives/ || fas fa-archive
-  叨逼叨: /artitalk/ || fas fa-archive
+  叨逼叨: /shuoshuo/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   # 标签: /tags/ || fas fa-tags 说说预留页面
   分类: /categories/ || fas fa-folder-open
@@ -304,8 +304,8 @@ gitalk:
 # https://valine.js.org
 # 评论配置
 valine:
-  appId: b3Mf59K4STSyFmKmH8INrXg8-gzGzoHsz # leancloud application app id
-  appKey: S2XUSDBEMs9gMkGj2aXHXBEf  # leancloud application app key
+  appId: 6WCE3RXpM0vNqrQFqlARCGHs-MdYXbMMI # leancloud application app id
+  appKey:  oF1TMzortDYsVzAGl2kNHWsd  # leancloud application app key
   pageSize: 10 # comment list page size
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
   lang: zh-CN # i18n: zh-CN/zh-TW/en/ja
@@ -773,8 +773,9 @@ note:
 # Artitalk
 # see https://artitalk.js.org/
 artitalk:
-  appId: b3Mf59K4STSyFmKmH8INrXg8-gzGzoHsz
-  appKey: S2XUSDBEMs9gMkGj2aXHXBEf
+  enable: true
+  appId: 9LI1zJFsYHMdwbGqXhgxe34y-MdYXbMMI
+  appKey: N1e7NRgYoS6kUyJFGTqfVKf4
   option:
 
 
