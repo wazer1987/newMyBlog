@@ -27,7 +27,8 @@ if page.top_img !== false
 else
   - var top_img = false
   - var isHomeClass = 'no-top-img'
-
+if !is_post()
+  - var bg_img = 'background-color:transparent;'
 header#page-header(class=isHomeClass style=bg_img)
   !=partial('includes/header/nav', {}, {cache:theme.fragment_cache})
   if top_img !== false
