@@ -42,7 +42,8 @@ header#page-header(class=isHomeClass style=bg_img)
           #site_social_icons
             !=fragment_cache('social', function(){return partial('includes/header/social')})
       #scroll-down
-        i.fas.fa-angle-down.scroll-down-effects
+        i.fas.fa-bell.scroll-down-effects
+       
     else
       #page-site-info
         h1#site-title=site_title

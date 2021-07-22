@@ -1,6 +1,7 @@
 ---
-title: 叨逼叨
+title: 自话
 date: 2021-07-19 22:20:34
+top_img: /img/shuoshuo1.jpeg
 ---
 <script type="text/javascript" src="https://unpkg.com/artitalk"></script>
 <!-- <script>
@@ -16,9 +17,13 @@ var username="wangzheng";            //Leancloud中设置的用户名
 </div>
 
 <script>
-new Artitalk({
+
+    
+setTimeout(() => {
+    new Artitalk({
       appId: '9LI1zJFsYHMdwbGqXhgxe34y-MdYXbMMI',
       appKey: 'N1e7NRgYoS6kUyJFGTqfVKf4',
 })
+},2000)
 </script>
 
