@@ -34,7 +34,8 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
       else
         - var footer_bg = ''
 
-      footer#footer(style=footer_bg)
+      // footer#footer(style=footer_bg) 让头部的背景为空
+      footer#footer(style='')
         !=partial('includes/footer', {}, {cache:theme.fragment_cache})
 
     include ./rightside.pug

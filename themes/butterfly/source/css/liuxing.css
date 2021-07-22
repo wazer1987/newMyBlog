@@ -43,13 +43,13 @@
 .shooting_star:nth-child(1) {
     top: calc(50% - 108px);
     left: calc(50% - 88px);
-    -webkit-animation-delay: 8311ms;
-    animation-delay: 8311ms;
+    -webkit-animation-delay: 500ms;
+    animation-delay: 500ms;
 }
 
 .shooting_star:nth-child(1)::before, .shooting_star:nth-child(1)::after, .shooting_star:nth-child(1)::after {
-    -webkit-animation-delay: 8311ms;
-    animation-delay: 8311ms;
+    -webkit-animation-delay: 500ms;
+    animation-delay: 500ms;
 }
 
 .shooting_star:nth-child(2) {

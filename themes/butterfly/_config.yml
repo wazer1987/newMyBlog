@@ -130,14 +130,12 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    - https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2Fe6f0d4d0cbf2e894b1b2d806648d64a227fa7420.jpg&refer=http%3A%2F%2Fi0.hdslb.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1611560754&t=b794d6450c80b4f8a950db15daa17524
-    - https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2Faf1416cc3f019da668f279a00b319ae97fcd8ce5.jpg&refer=http%3A%2F%2Fi0.hdslb.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1611560616&t=b14eab497abebe3efd0e6f7f9caae277
-    - https://gimg2.baidu.com/image_search/src=http%3A%2F%2Finews.gtimg.com%2Fnewsapp_match%2F0%2F10759487729%2F0.jpg&refer=http%3A%2F%2Finews.gtimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1611561281&t=f6ad632aa2b9727f5dfcbdf19f3e4a3e
-    - https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F3cecca79165aa4f0961923ba02853262c547ac8b.jpg&refer=http%3A%2F%2Fi0.hdslb.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1611561390&t=4ad0381d15f94377adb0ed7e3d229ef5
-    - https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi.keaitupian.net%2Fup%2Fcf%2Fd0%2F31%2F3c2793018a03f783f23f08f4c131d0cf.jpg&refer=http%3A%2F%2Fi.keaitupian.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1611561419&t=08dfb6f7f828f543d4659d5382129d40
-    - https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi.keaitupian.net%2Fup%2Fdd%2F38%2F15%2Ff9b0ae96fb483187fc41c492121538dd.jpg&refer=http%3A%2F%2Fi.keaitupian.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1611561438&t=315369ef86990465738ecf7c8b250e13
-    - https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F751f8d78e8913a7f72b0486c1d270b47c3b74d98.jpg&refer=http%3A%2F%2Fi0.hdslb.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1611561468&t=41673a13c20f5272a5123a5019d08a7e
-    - https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimages.h128.com%2Fupload%2F202001%2F04%2F202001041120238513.jpg%3Fx-oss-process%3Dimage%2Fresize%2Cm_lfit%2Cw_1421%2Fquality%2Cq_100%2Fformat%2Cjpg&refer=http%3A%2F%2Fimages.h128.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1611561537&t=14d205de148b6c5410657145a1ce8430
+  - https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.vjshi.com%2F2016-12-29%2F0604092c7129acd0f4029c6728db7fd7%2F00001.jpg%3Fx-oss-process%3Dstyle%2Fwatermark&refer=http%3A%2F%2Fpic.vjshi.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1629530724&t=333c5056a813a542419e5b661ebcfcd9
+  - https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fcz-video-photo.oss-cn-beijing.aliyuncs.com%2F20191017%2F4cfc341591d242327b67e9ceb6953612_00002.jpg&refer=http%3A%2F%2Fcz-video-photo.oss-cn-beijing.aliyuncs.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1629530702&t=80943e12d5239f63beafd6d1c540855f
+  - https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.vjshi.com%2F2018-12-05%2F66b696ea615f3567a32b65f93611a814%2F00004.jpg%3Fx-oss-process%3Dstyle%2Fwatermark&refer=http%3A%2F%2Fpic.vjshi.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1629530687&t=c2e3c97de6dbdc29e77593d5f4dc7fb5
+  - https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.vjshi.com%2F2018-07-17%2Faf41dabad727ba80c9ca8a2bfbd22a58%2F00004.jpg%3Fx-oss-process%3Dstyle%2Fwatermark&refer=http%3A%2F%2Fpic.vjshi.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1629530659&t=bbcfe1e86f393eecbb0722db1b92e475
+  - https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.vjshi.com%2F2018-07-17%2F3eca5394963b50e37b7be2ba320029ec%2F00003.jpg%3Fx-oss-process%3Dstyle%2Fwatermark&refer=http%3A%2F%2Fpic.vjshi.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1629530644&t=10679b5732c52e39eeb588040240a790
+  - https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.vjshi.com%2F2017-07-20%2F4f06f9aa2ebcea6691a78537052e8e9f%2F00001.jpg%3Fx-oss-process%3Dstyle%2Fwatermark&refer=http%3A%2F%2Fpic.vjshi.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1629530599&t=32fb97bad7007bdc6c712ccadacd5721
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
   flink: /img/friend_404.gif
@@ -643,7 +641,7 @@ aside:
              <p>https://github.com/flipped-aurora/gin-vue-admin</p>
              <p>🌟🌟欢迎大家start 🌟🌟</p>
              <p>欢迎加入博主的前端技术交流群</p>
-             <p style="background:rgba(255,255,255,0.8);margin:0">
+             <p style="background:rgba(255,255,255,1);margin:0">
               <img src="/img/code.png"></img>
              </p>
   card_recent_post:
@@ -859,6 +857,7 @@ inject:
      <link rel="stylesheet" href="/css/iconfont.css">
      <link rel="stylesheet" href="/css/custom.css">
      <link rel="stylesheet" href="/css/liuxing.css">
+     <link rel="stylesheet" href="/css/copyright.css">
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
      <script src="/live2d-widget/autoload.js"></script>
      

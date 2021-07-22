@@ -52,6 +52,8 @@ div#category{
   /* 页脚透明 */
 #footer{
     background: transparent!important;
+    background-image: none !important;
+    background-color: '' !important;
   }
   /* 头图透明 */
   #page-header{
@@ -73,5 +75,5 @@ div#category{
       }
 
 
-   
+
 
