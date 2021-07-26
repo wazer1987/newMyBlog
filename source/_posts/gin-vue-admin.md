@@ -23,7 +23,6 @@ aplayer:
 highlight_shrink:
 aside:
 ---
-
 <div align=center>
 <img src="http://qmplusimg.henrongyi.top/gvalogo.jpg" width=300" height="300" />
 </div>
