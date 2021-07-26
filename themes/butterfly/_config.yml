@@ -254,8 +254,9 @@ comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Utterances/Facebook Comments/Twikoo
   use:
-  - Valine
-  - Disqus
+  # - Valine
+  - Twikoo
+  # - Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
@@ -338,8 +339,11 @@ facebook_comments:
 
 # Twikoo
 # https://github.com/imaegoo/twikoo
-twikoo:
-
+twikoo: twikoo-4gkyxol6e825079a
+  # envId: 
+  # region: ap-shanghai
+  # visitor: false
+  # option:
 # Chat Services
 # --------------------------------------
 
@@ -775,13 +779,45 @@ note:
 
 # Artitalk
 # see https://artitalk.js.org/
+# artitalk see https://artitalk.js.org/
+# hexo-butterfly-artitalk-pro
+# see https://akilar.top/posts/f1004b1d/
 artitalk:
-  enable: true
+  enable:
+    card: true # 侧边栏开关
+    page: true #页面开关
+  # 侧栏相关配置项
+  priority: 5 #过滤器优先权
+  enable_page: all # 应用页面
+  layout: # 挂载容器类型
+    type: class
+    name: sticky_layout
+    index: 0
+  # 页面相关配置项
+  path: artitalk
+  front_matter:
+    title: 叨逼叨
+  # 公共配置项
   appId: 9LI1zJFsYHMdwbGqXhgxe34y-MdYXbMMI
   appKey: N1e7NRgYoS6kUyJFGTqfVKf4
-  option:
-
-
+  exclude:
+    - /artitalk/
+    - /posts/ #需要abbrlink插件支持
+  js: https://cdn.jsdelivr.net/npm/artitalk
+  # option:
+  #   serverURL: https://********.api.lncldglobal.com
+  #   lang: zh
+  #   pageSize: 1
+  #   color1: '#49b1f5'
+  #   color2: '#00c4b6'
+  #   atEmoji: {
+  #     'Mafumafu1':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749454.png',
+  #     'Mafumafu2':'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/Mafumafu/199749455.png'}
+  #首页分类磁铁
+  catalogMagnet:
+    enable: true
+    style: odd # 磁贴每行显示数量：odd：3列 | even：4列
+    max-height: true #单行显示，超过则转为滚动显示
 # Pjax [Beta]
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
