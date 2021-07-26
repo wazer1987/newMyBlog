@@ -559,7 +559,7 @@ canvas_nest:
   zIndex: -1 # z-index property of the background, default: -1.
   count: 99 # the number of lines, default: 99.
   mobile: false
-
+ 
 # Typewriter Effect (打字效果)
 # https://github.com/disjukr/activate-power-mode
 activate_power_mode:
@@ -754,6 +754,26 @@ translate:
 # Read Mode (閲讀模式)
 readmode: true
 
+#首页 分类 磁帖
+categoryBar:
+  enable: true
+  column: odd # 显示列数,odd：3列 | even：4列
+  row: 1 #显示行数，默认两行，超过行数切换为滚动显示
+  descr:
+    - 长篇小说连载
+    - 杂谈教程
+    - 玩转Win10
+    - Ubuntu指南
+    - 个人日记
+    - 诗词歌赋
+  cover:
+    - url('https://cdn.jsdelivr.net/npm/akilar-candyassets/image/cover1.webp')
+    - '#abcdef' # HEX格式色值需要用''包裹，不然会被识别成注释
+    - rgba(45,67,89,0.7)
+    - linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%)
+    - url('https://cdn.jsdelivr.net/npm/akilar-candyassets/image/cover5.webp')
+    - url('https://cdn.jsdelivr.net/npm/akilar-candyassets/image/cover6.webp') 
+
 # dark mode
 darkmode:
   enable: true
@@ -870,9 +890,13 @@ css_prefix: true
 inject:
   head:
       - <link rel="stylesheet" href="/css/custom.css"  media="defer" onload="this.media='all'">
+      - <link rel="stylesheet" href="/css/coin.css"  media="defer" onload="this.media='all'">
+
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
+    - <script src="/js/coin.js"></script>
+
 
 # CDN
 # Don't modify the following settings unless you know how they work
@@ -962,3 +986,4 @@ CDN:
   prismjs_js: https://cdn.jsdelivr.net/npm/prismjs/prism.min.js
   prismjs_lineNumber_js: https://cdn.jsdelivr.net/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js
   prismjs_autoloader: https://cdn.jsdelivr.net/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
+ 
