@@ -18,7 +18,7 @@ menu:
   #   - 照片 || /Gallery/ || fas fa-images
   #   - 电影 || /movies/ || fas fa-video
   友链: /link/ || fas fa-link
-  留言板: /comments/ || iconfont icon-message 
+  留言板: /comments/ || icon-message || faa-tada
   个人简介: /about/ || fas fa-heart
 
 # Hide the child menu items in mobile sidebar
@@ -900,7 +900,8 @@ inject:
   head:
       - <link rel="stylesheet" href="/css/custom.css"  media="defer" onload="this.media='all'">
       - <link rel="stylesheet" href="/css/coin.css"  media="defer" onload="this.media='all'">
-     
+      - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css"  media="defer" onload="this.media='all'">
+
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
