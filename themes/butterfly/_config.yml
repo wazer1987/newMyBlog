@@ -905,6 +905,8 @@ inject:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
+    #看板娘
+    - <script defer src="/live2d-widget/autoload.js"></script>
     # 大赏的投币效果
     - <script src="/js/coin.js"></script>
     #图标的js
