@@ -901,7 +901,8 @@ inject:
       - <link rel="stylesheet" href="/css/custom.css"  media="defer" onload="this.media='all'">
       - <link rel="stylesheet" href="/css/coin.css"  media="defer" onload="this.media='all'">
       - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css"  media="defer" onload="this.media='all'">
-
+      - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+		  - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zhheo/JS-Heo@main/bb/showbb_in_index.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>

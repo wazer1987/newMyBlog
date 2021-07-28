@@ -1,0 +1,10 @@
+#bbTimeList.bbTimeList.container(onclick=`window.open('/shuoshuo/','_self')`)
+    bblogo(onclick="location='/shuoshuo/'",title="即刻短文",style="font-size: 2rem;")
+    #bbtalk.swiper-container
+        #bber-talk.swiper-wrapper
+    i.bber-gotobb.fas.fa-arrow-circle-right(onclick="location='/shuoshuo/'",title="查看全文")
+.js-pjax
+    script.
+        var bbShortApiUrl = "https://7477-twikoo-4gkyxol6e825079a-1306570258.tcb.qcloud.la/json/bber.json?sign=cfe19172dcf9e18f67123e3da26cb579&t=1627461876"
+    script(src='https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js',data-pjax='')
+    script(src='https://cdn.jsdelivr.net/gh/zhheo/JS-Heo@main/bb/showbb_in_index.js',data-pjax='',defer='')

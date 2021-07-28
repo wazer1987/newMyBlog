@@ -2,15 +2,16 @@
 title: 自话
 date: 2021-07-19 22:20:34
 aside: false
+type: bb
 # top_img: /img/shuoshuo1.jpeg
 ---
-<script type="text/javascript" src="https://unpkg.com/artitalk"></script>
-<div id="artitalk_main">
+<!-- <script type="text/javascript" src="https://unpkg.com/artitalk"></script> -->
+<!-- <div id="artitalk_main">
     我真是烦死了
     真的很烦
-</div>
+</div> -->
 
-<script>
+<!-- <script>
 
     
 setTimeout(() => {
@@ -19,7 +20,7 @@ setTimeout(() => {
       appKey: 'N1e7NRgYoS6kUyJFGTqfVKf4',
 })
 },2000)
-</script>
+</script> -->
 
 <!-- <div id='speak'></speak>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/nanshen/js/blog/bb/ispeak-bber.min.js" charset="utf-8" ></script>
@@ -41,4 +42,4 @@ ispeakBber
       // 哔哔加载完成后的回调函数，你可以写你自己的功能
       console.log('哔哔 加载完成')
     })
-</script> -->
+</script>  -->
