@@ -18,7 +18,7 @@ menu:
   #   - 照片 || /Gallery/ || fas fa-images
   #   - 电影 || /movies/ || fas fa-video
   友链: /link/ || fas fa-link
-  留言板: /comments/ || iconfont icon-message
+  留言板: /comments/ || iconfont icon-message 
   个人简介: /about/ || fas fa-heart
 
 # Hide the child menu items in mobile sidebar
@@ -758,22 +758,31 @@ readmode: true
 categoryBar:
   enable: true
   column: odd # 显示列数,odd：3列 | even：4列
-  row: 1 #显示行数，默认两行，超过行数切换为滚动显示
+  row: 2 #显示行数，默认两行，超过行数切换为滚动显示
   descr:
-    - 长篇小说连载
-    - 杂谈教程
-    - 玩转Win10
-    - Ubuntu指南
-    - 个人日记
-    - 诗词歌赋
+    - 开源项目
   cover:
-    - url('https://cdn.jsdelivr.net/npm/akilar-candyassets/image/cover1.webp')
-    - '#abcdef' # HEX格式色值需要用''包裹，不然会被识别成注释
-    - rgba(45,67,89,0.7)
-    - linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%)
-    - url('https://cdn.jsdelivr.net/npm/akilar-candyassets/image/cover5.webp')
-    - url('https://cdn.jsdelivr.net/npm/akilar-candyassets/image/cover6.webp') 
-
+    - url('/img/gin-vue-admin.jpg')
+    - url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fstatic.open-open.com%2Flib%2FuploadImg%2F20160422%2F20160422163638_314.jpg&refer=http%3A%2F%2Fstatic.open-open.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1630029204&t=95a709062a44bf8d189159544829cca5')
+    - url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.pxcodes.com%2Fd%2Ffile%2F3cf5f96da812bbcf632a54f179a18ca6.jpg&refer=http%3A%2F%2Fwww.pxcodes.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1630029250&t=15d4b1dc40535852885546d24ecc127a')
+    - url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fupload-images.jianshu.io%2Fupload_images%2F14414020-3d4b26aa84c5eea0.jpg&refer=http%3A%2F%2Fupload-images.jianshu.io&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1630029320&t=24846f8ac5dddab2e0d0ad758d898e0f')
+    - url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fhaomou.oss-cn-beijing.aliyuncs.com%2Fupload%2F2018%2F12%2Fimg_5c242d1024223.png&refer=http%3A%2F%2Fhaomou.oss-cn-beijing.aliyuncs.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1630029359&t=84dbab61d26a14a8ebe4d60669ccef02')
+    - url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic1.zhimg.com%2Fv2-4cf638c1ef47371e8eb3a444e5a8df33_1440w.jpg%3Fsource%3D172ae18b&refer=http%3A%2F%2Fpic1.zhimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1630029418&t=a5b3133ceb30d9c5e902d17232b55e91')
+    - url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fupload-images.jianshu.io%2Fupload_images%2F13133049-b974246bf00d9f5f.png%3FimageMogr2%2Fauto-orient%2Fstrip%257CimageView2%2F2%2Fw%2F1240&refer=http%3A%2F%2Fupload-images.jianshu.io&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1630029476&t=537ad591e0531b3ff71591ab9eacfcad')
+    - url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fstatic001.geekbang.org%2Fresource%2Fimage%2Ff9%2F04%2Ff909858b9ce8d2393f2488d272b03b04.jpg&refer=http%3A%2F%2Fstatic001.geekbang.org&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1630029529&t=ba4fa2f666e1f198d2d37492883ead4c')
+    - url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.aiiup.com%2Fuploads%2Fallimg%2F200725%2F0ZSID3-0.jpg&refer=http%3A%2F%2Fwww.aiiup.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1630029603&t=660e80c9a1cc5cabbf0c6f6370254227') 
+    - url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.pxcodes.com%2Fd%2Ffile%2F3cf5f96da812bbcf632a54f179a18ca6.jpg&refer=http%3A%2F%2Fwww.pxcodes.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1630029250&t=15d4b1dc40535852885546d24ecc127a')
+    - url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.pxcodes.com%2Fd%2Ffile%2F3cf5f96da812bbcf632a54f179a18ca6.jpg&refer=http%3A%2F%2Fwww.pxcodes.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1630029250&t=15d4b1dc40535852885546d24ecc127a')
+    - url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimage.biaobaiju.com%2Fuploads%2F20180802%2F03%2F1533150766-BJHUqspufF.jpg&refer=http%3A%2F%2Fimage.biaobaiju.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1630029768&t=7ddedc38dc9bba0e139b115c7a42c936')
+    - url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.aiiup.com%2Fuploads%2Fallimg%2F200725%2F0ZSID3-0.jpg&refer=http%3A%2F%2Fwww.aiiup.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1630029603&t=660e80c9a1cc5cabbf0c6f6370254227') 
+    - url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg-bss.csdn.net%2F201702161807216047.jpg&refer=http%3A%2F%2Fimg-bss.csdn.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1630029877&t=b703dc26ab30bd333a3480f3e7e10466')
+    - url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fstatic.surmon.me%2Fnodepress%2Fimage%2Fnuxtjs.jpg&refer=http%3A%2F%2Fstatic.surmon.me&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1630029920&t=58c1698878a1d85226ac94df07b23195')
+    - url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fcopyright.bdstatic.com%2Fquanjing%2Fcreative%2Fb7acfc8ea822279c5a641e9ddbcc5d6c.jpg%40wm_1%2Ck_YmpoX3F1YW5qaW5nd2F0ZXIucG5n&refer=http%3A%2F%2Fcopyright.bdstatic.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1630029962&t=895f567f9fa96b48dc7301591c794002')
+    - url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fgdaiae.org%2Fuploads%2F201711%2Fa4d8db202cd72c1973d4a689677a2166.jpg&refer=http%3A%2F%2Fgdaiae.org&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1630030011&t=f1e8444fb175385be68df60be06ec0fb')
+    - url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic1.zhimg.com%2Fv2-c5c42856c8d5640ffe829e0049f84290_1440w.jpg%3Fsource%3D172ae18b&refer=http%3A%2F%2Fpic1.zhimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1630030049&t=dc22e2d9b4df128513b13f04b48a42d3')
+    - url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.pianshen.com%2Fimages%2F846%2Fa4fa1335cfddcaa49769f39fe37b43ce.png&refer=http%3A%2F%2Fwww.pianshen.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1630030090&t=f6f92b86dfcf4aef5e34a82e7da1cf84')
+    - url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fcc.cocimg.com%2Fapi%2Fuploads%2F20171228%2F1514426590804556.jpg&refer=http%3A%2F%2Fcc.cocimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1630030131&t=e0f5578f2ff67af1b1f1367c7df7f3b6')
+    - url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.pianshen.com%2Fimages%2F79%2F65569c200a541ab4efaef1f29fb28bf7.png&refer=http%3A%2F%2Fwww.pianshen.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1630030183&t=3b8b5871b7dc271a786f66691aa97f9c')
 # dark mode
 darkmode:
   enable: true
@@ -891,11 +900,15 @@ inject:
   head:
       - <link rel="stylesheet" href="/css/custom.css"  media="defer" onload="this.media='all'">
       - <link rel="stylesheet" href="/css/coin.css"  media="defer" onload="this.media='all'">
-
+     
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
+    # 大赏的投币效果
     - <script src="/js/coin.js"></script>
+    #图标的js
+    - <script async src="//at.alicdn.com/t/font_2700632_3rtvhzzpl3h.js"></script>
+
 
 
 # CDN

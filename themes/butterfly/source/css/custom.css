@@ -1,5 +1,28 @@
 
-@import "//at.alicdn.com/t/font_2700632_3rtvhzzpl3h.css";
+svg.icon {
+  width: 1em; height: 1em;
+  /* width和height定义图标的默认宽度和高度*/
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+
+/* 页脚蝴蝶振翅动画 */
+.copyright svg{
+  animation:butterfly 1s linear infinite alternate;
+}
+@keyframes butterfly {
+  from {
+    transform:rotateY(70deg);
+  }
+  to {
+    transform:rotateY(0deg);
+  }
+}
+
+
+/*字体的css*/
 @font-face{
     font-family:'Candyhome' ;  /* 字体名自定义即可 */
     src:url('/fonts/title.ttf'); /* 字体文件路径 */
