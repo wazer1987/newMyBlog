@@ -127,3 +127,14 @@ background: rgba(255, 255, 255, 0.9);
   #page-header::before{
     background: transparent!important;
     }
+
+
+    [data-theme='dark'] #web_bg:before, [data-theme='dark'] #footer:before, [data-theme='dark'] #page-header:before{
+      background-color: transparent !important;
+    }    
+
+
+/* 顶部对齐 */
+#bbTimeList{
+  margin-top: 0 !important;
+}    
