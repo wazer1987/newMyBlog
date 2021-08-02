@@ -1,10 +1,12 @@
 - class_name: 我的朋友圈
-  class_desc: 这个人,好像没什么朋友
+  class_desc: 我这个人,好像没什么朋友
   link_list:
     - name: Gin-Vue-Admin
       link: https://www.gin-vue-admin.com/
       avatar: /img/gin-vue-admin.jpg
       descr: 快速开发全栈后台管理系统
+      siteshot: /img/gin-vue-admin.jpg
+
     # - name: Hexo
     #   link: https://hexo.io/zh-tw/
     #   avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg

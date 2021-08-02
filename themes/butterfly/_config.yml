@@ -754,6 +754,10 @@ translate:
 # Read Mode (閲讀模式)
 readmode: true
 
+# 友链样式，butterfly为默认样式，volantis为站点卡片样式.flexcard为弹性卡片样式
+flink_style: flexcard # butterfly | volantis | flexcard
+
+
 #首页 分类 磁帖
 categoryBar:
   enable: true
