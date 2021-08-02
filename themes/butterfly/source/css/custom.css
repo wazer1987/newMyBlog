@@ -76,31 +76,38 @@ svg.icon {
 /* 一图流背景 */
 /* 首页文章卡片 */
 #recent-posts > .recent-post-item{
-  background:rgba(255, 255, 255, 0.9);
+  background: rgb(18 24 27 / 30%) !important;
+  backdrop-filter: blur(10px) saturate(200%) !important;
 }
 /* 首页侧栏卡片 */
 .card-widget{
-background:rgba(255, 255, 255, 0.9)!important;
+  background: rgb(18 24 27 / 30%) !important;
+  backdrop-filter: blur(10px) saturate(200%) !important;
 }
 /* 文章页面正文背景 */
 div#post{
-background: rgba(255, 255, 255, 0.9);
+  background: rgb(18 24 27 / 30%) !important;
+  backdrop-filter: blur(10px) saturate(200%) !important;
 }
 /* 分页页面 */
 div#page{
-background: rgba(255, 255, 255, 0.9);
+  background: rgb(18 24 27 / 30%) !important;
+  backdrop-filter: blur(10px) saturate(200%) !important;
 }
 /* 归档页面 */
 div#archive{
-background: rgba(255, 255, 255, 0.9);
+  background: rgb(18 24 27 / 30%) !important;
+  backdrop-filter: blur(10px) saturate(200%) !important;
 }
 /* 标签页面 */
 div#tag{
-background: rgba(255, 255, 255, 0.9);
+  background: rgb(18 24 27 / 30%) !important;
+  backdrop-filter: blur(10px) saturate(200%) !important;
 }
 /* 分类页面 */
 div#category{
-background: rgba(255, 255, 255, 0.9);
+  background: rgb(18 24 27 / 30%) !important;
+  backdrop-filter: blur(10px) saturate(200%) !important;
 }
 
 
@@ -130,11 +137,22 @@ background: rgba(255, 255, 255, 0.9);
 
 
     [data-theme='dark'] #web_bg:before, [data-theme='dark'] #footer:before, [data-theme='dark'] #page-header:before{
-      background-color: transparent !important;
+      background-color: rgba(0,0,0,0.0) !important;
     }    
 
 
 /* 顶部对齐 */
 #bbTimeList{
   margin-top: 0 !important;
+  background: rgb(18 24 27 / 30%) !important;
+  backdrop-filter: blur(10px) saturate(200%) !important;
 }    
+
+
+
+/* 头部菜单的背景样式 */
+
+[data-theme='dark'] #page-header.nav-fixed > #nav, [data-theme='dark'] #page-header.not-top-img > #nav{
+  background: rgb(18 24 27 / 30%) !important;
+  
+}

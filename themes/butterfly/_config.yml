@@ -27,7 +27,7 @@ hide_sidebar_menu_child: false
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: darker #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
@@ -804,7 +804,7 @@ darkmode:
 
 # medium-zoom
 # https://github.com/francoischalifour/medium-zoom
-medium_zoom: false
+medium_zoom: true
 
 # fancybox
 # http://fancyapps.com/fancybox/3/
@@ -904,6 +904,7 @@ inject:
   head:
       - <link rel="stylesheet" href="/css/custom.css"  media="defer" onload="this.media='all'">
       - <link rel="stylesheet" href="/css/coin.css"  media="defer" onload="this.media='all'">
+      - <link rel="stylesheet" href="/css/liuxing.css">
       - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css"  media="defer" onload="this.media='all'">
       - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
 		  - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zhheo/JS-Heo@main/bb/showbb_in_index.css">
@@ -916,6 +917,8 @@ inject:
     - <script src="/js/coin.js"></script>
     #图标的js
     - <script async src="//at.alicdn.com/t/font_2700632_3rtvhzzpl3h.js"></script>
+    #流星
+    -  <script src="/js/liuxing.js" data-pjax></script>
      #背景的js
     # - <script src="/js/bg.js"></script>
 
