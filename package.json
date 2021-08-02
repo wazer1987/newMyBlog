@@ -15,6 +15,7 @@
     "hexo": "^5.0.0",
     "hexo-butterfly-artitalk-pro": "^1.0.4",
     "hexo-butterfly-tag-plugins-plus": "^1.0.0",
+    "hexo-butterfly-wowjs": "^1.0.4",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index-pin-top": "^0.2.2",

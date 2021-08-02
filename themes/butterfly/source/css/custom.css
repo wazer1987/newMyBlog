@@ -25,7 +25,7 @@ svg.icon {
 /*字体的css*/
 @font-face{
     font-family:'Candyhome' ;  /* 字体名自定义即可 */
-    src:url('/fonts/title.ttf'); /* 字体文件路径 */
+    src:url('/fonts/title1.ttf'); /* 字体文件路径 */
     font-display : swap;
   }
   @font-face{
@@ -36,18 +36,28 @@ svg.icon {
   h1#site-title {
      font-family: 'Candyhome', sans-serif;
      font-size: 60px !important;
+     color: #fff;
   }  
-  /* #subtitle{
+  #subtitle{
     font-family: 'subtitle', sans-serif;
+    color: #fff;
   }
   #aside-content{
     font-family: 'subtitle', sans-serif;
+    color: #fff;
   }
   #recent-posts{
     font-family: 'subtitle', sans-serif;
-  } */
-
-  
+    color: #fff;
+  }
+ #site-name{
+  font-family: 'subtitle', sans-serif;
+  color: #fff !important;
+ }
+ .site-page{
+  font-family: 'subtitle', sans-serif;
+   color: #fff !important;
+ }
 
 /* 底角样式 */
   #footer {
